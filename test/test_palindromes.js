@@ -1,7 +1,7 @@
 const assert = require("chai").assert;
 const isPalindrome = require("../lib/palindromes");
 
-describe("Palindromes", function() {
+describe("Palindromes", () => {
   it("should return true if a word is a palindrome", function() {
     const word = "abba";
     const result = isPalindrome(word);
